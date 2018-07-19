@@ -1,4 +1,4 @@
-# Tensorflow Retrain Model with Python3
+# Tensorflow Retrain Model with Python3
 迁移学习，重新训练模型并输出 `serving model`
 
 ## 参考
@@ -6,7 +6,7 @@
 
 ## Run
 * 下载代码
-  [github]()
+  [github](https://github.com/daxiang6506/TF-Retrain-Model)
 * 建立环境
   ```
   docker run -it -p 8881:8888 --link model-server -v $(pwd):/notebooks daxiang6506/tensorflow:1.8.0-py3 /bin/bash
@@ -24,5 +24,5 @@
   ```
   >每类数量不能太少，否则出错
 
-## 修订
+## 修订
 * 与原版本相比，增加了输出为 `serving model` 的功能
